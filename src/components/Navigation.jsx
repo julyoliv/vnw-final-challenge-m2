@@ -13,18 +13,18 @@ function Navigation() {
         <S.List>
           <li>
             {" "}
-            <Link to="/"> Home </Link>{" "}
+            <Link to="/"> home </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link to="/AboutMe"> About me </Link>{" "}
+            <Link to="/AboutMe"> about </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link to="/Projects"> Projects </Link>{" "}
+            <Link to="/Projects"> projects </Link>{" "}
           </li>
           <li>
-            <Link to="/Galery"> Galery </Link>
+            <Link to="/Galery"> galery </Link>
           </li>
         </S.List>
       </S.Navigation>

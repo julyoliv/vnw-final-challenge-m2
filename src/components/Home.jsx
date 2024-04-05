@@ -10,8 +10,8 @@ function Home() {
     <S.Home>
       <img src={Profile} alt="Luz Noceda" />
       
-      <h2>HEY, I'M JULYOLIV</h2>
-      <p>welcome to my page</p>
+      <h2>welcome to my page</h2>
+      <p>Hello, I'm julyoliv, a Brazilian full-stack developer who loves learning about technology.</p>
 
       <S.SocialMedia>
       <img src={Instagram} alt="Instagram Icon" />
