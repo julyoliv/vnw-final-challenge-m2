@@ -144,6 +144,47 @@ export const Skills = styled.section`
 
   img {
     height: 7vh;
+    filter: grayscale(100%) brightness(100%);
+    transition: filter 0.5s ease;
+  }
+
+  img:hover {
+    filter: drop-shadow(0 0 10px rgba(147, 112, 219));
   }
 `;
 
+export const SectionProjects = styled.section`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  background-color: black;
+  text-decoration: none;
+`;
+
+export const Project = styled.div`
+  background-color: GhostWhite;
+  border: solid MediumPurple;
+  width: 21vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: black;
+  }
+  h3 {
+    width: 25vw;
+    font-size: 1rem;
+    color: black;
+  }
+
+  img {
+    width: 20vw;
+  }
+`;

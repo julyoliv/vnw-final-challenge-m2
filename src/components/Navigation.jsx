@@ -24,7 +24,8 @@ function Navigation() {
             <Link to="/Projects"> projects </Link>{" "}
           </li>
           <li>
-            <Link to="/Galery"> galery </Link>
+            {" "}
+            <Link to="/Galery"> galery </Link>{" "}
           </li>
         </S.List>
       </S.Navigation>
